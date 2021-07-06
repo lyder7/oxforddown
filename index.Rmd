@@ -17,11 +17,11 @@ knit: (function(input, ...) {
 ## thesis metadata ##
 #####################
 title: |
-  `oxforddown`: \
+  `NTNU`: \
   An Oxford University Thesis \
   Template for R Markdown
-author: Author Name
-college: Your College
+author: Lyder Aleksander Mathisen 
+college: NTNU
 university: University of Oxford
 university-logo: templates/beltcrest.pdf
 university-logo-width: 5cm
