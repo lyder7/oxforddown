@@ -22,7 +22,7 @@ title: |
 author: Lyder Aleksander Mathisen 
 college: NTNU Business School
 university: Norwegian University of Science and Technology
-university-logo: templates/ntnu_handelshoeyskolen_hoeyde_eng.pdf
+university-logo: templates/hovedlogo_eng.pdf
 university-logo-width: 5cm
 submitted-text: A Master’s thesis submitted for the degree of
 degree: MSc Economics and Business Management, Siviløkonom
