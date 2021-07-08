@@ -1,13 +1,18 @@
-This is where you will normally thank your advisor, colleagues, family and friends, as well as funding and institutional support. In our case, we will give our praises to the people who developed the ideas and tools that allow us to push open science a little step forward by writing plain-text, transparent, and reproducible theses in R Markdown. 
+Jeg ønsker å benytte avdelingen til å takke xxx, NTNU og alle jeg har vært en del av i løpet av perioden som student. Spesielt ønsker jeg å takke min veileder XXX XXX. 
 
-We must be grateful to John Gruber for inventing the original version of Markdown, to John MacFarlane for creating Pandoc (<http://pandoc.org>) which converts Markdown to a large number of output formats, and to Yihui Xie for creating `knitr` which introduced R Markdown as a way of embedding code in Markdown documents, and `bookdown` which added tools for technical and longer-form writing.
 
-Special thanks to [Chester Ismay](http://chester.rbind.io), who created the `thesisdown` package that helped many a PhD student write their theses in R Markdown. And a very special thanks to John McManigle, whose adaption of Sam Evans' adaptation of Keith Gillow's original maths template for writing an Oxford University DPhil thesis in LaTeX provided the template that I in turn adapted for R Markdown.
+Videre ønsker jeg å gi oppmerksomhet til R og R-studio for sin tilgjengelighet av programvare og modeller. Gratis og transparent gjør forskning, pasientdata og utvikling tilgjengelig og gratis for alle. Det er stort. Spesielt utmerket **Rmetrics** sine funksjoner for estimering av porteføljer. 
 
-Finally, profuse thanks to JJ Allaire, the founder and CEO of [RStudio](http://rstudio.com), and Hadley Wickham, the mastermind of the tidyverse without whom we'd all just given up and done data science in Python instead. Thanks for making data science easier, more accessible, and more fun for us all.
+
+Avslutningvits ønsker jeg rette fokus til min familie og de som er nær meg. Oppgaven har vært et tidkrevende, vanskelig og utfordrende. Timene har blitt mange og muligens har jeg såret de rundt meg for manglende tilstedeværelse fra min side. Jeg ønsker å rette mitt største fokus til dere nå fremover og det gjør meg stolt at dere kan se resultatrettet av det ferdige prosjektet. Jeg har gledet meg til å vise det frem.
+
+Jeg er glad i dere. 
+
+
+
 
 \begin{flushright}
-Ulrik Lyngs \\
-Linacre College, Oxford \\
-2 December 2018
+Lyder Aleksander Mathisen \\
+NTNU, Norwegian University of Science n Technology \\
+27 May 2021
 \end{flushright}
