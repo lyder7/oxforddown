@@ -30,8 +30,10 @@ The template uses the [bookdown](https://bookdown.org) R package together with t
 Examples of theses written with `oxforddown`:
 
 -   [Ulysses in Cyberspace: Examining the Effectiveness of Design Patterns for Digital Self-Control](https://ulyngs.github.io/phd-thesis/) by [Ulrik Lyngs](https://ulriklyngs.com)
+-   [The Psychology of Managerial Capital Allocation](https://thesis.shirdekel.com) by [Shir Dekel](https://shirdekel.com)
 -   [Teens, Screens and Wellbeing: An Improved Approach](https://www.amyorben.com/docs/thesis/index.html) by [Amy Orben](https://www.amyorben.com)
 -   [Interpreting Neural Language Models for Linguistic Complexity Assessment](https://gsarti.com/thesis/introduction.html) by [Gabriele Sarti](https://gsarti.com)
+
 
 *NOTE: If you've used this template to write your thesis, drop me a line at [ulrik.lyngs\@cs.ox.ac.uk](mailto:ulrik.lyngs@cs.ox.ac.uk) and I'll add a link showcasing it!*
 
@@ -79,7 +81,8 @@ Examples of theses written with `oxforddown`:
           "makecell", "microtype", "minitoc", "multirow", "notoccite", 
           "oberdiek", "pdflscape", "pdfpages", "quotchap", "soul", "tabu", 
           "threeparttable", "threeparttablex", "titlesec", "tocbibind", 
-          "trimspaces", "ulem", "units", "utopia", "varwidth", "wrapfig"
+          "trimspaces", "ulem", "units", "utopia", "varwidth", "wrapfig",
+          "fvextra"
           )
         tinytex::tlmgr_install(missing_packages)
         ```
@@ -107,7 +110,7 @@ See also the general, official resources [*R Markdown: The Definitive Guide*](ht
 
 ### Video tutorials
 
-I am in the process of updating the tutorial videos to v3 - I've marked below which ones are yet to be updated (they are still informative), and crossed out the ones that are now longer useful:
+I am in the process of updating the tutorial videos to v3 - I've noted below which have yet to be updated, but are still informative, and struck out those that no longer apply:
 
 - [Part 1: Building the entire thesis](https://youtu.be/LBHxcuCMjnk)
 - [Part 2: Building a single chapter](https://youtu.be/8vcO252Us6g)
@@ -161,7 +164,7 @@ knit: (function(input, ...) {
 ```
 
 -   NOTE: the [bs4 book output](https://pkgs.rstudio.com/bookdown/reference/bs4_book.html) requires the `downlit` and `bslib` R packages (install them with `install.packages`)
--   Note also that to deploy a BS4 book on GitHub Pages, there must be a **.nojekyll** file in the **docs/** folder, otherwise GitHub does some voodoo that causes some filepaths not to work. This file is generated automatically by `oxforddown`s knitting function.
+-   Note also that to deploy a BS4 book on GitHub Pages, there must be a **.nojekyll** file in the **docs/** folder, otherwise GitHub does some voodoo that causes some filepaths not to work. This file is generated automatically by `oxforddown`'s knitting function.
 
 #### Gitbook output (HTML)
 
@@ -171,7 +174,7 @@ knit: (function(input, ...) {
     ...
 ```
 
--   Note that to deploy a gitbook on GitHub Pages, there must be a **.nojekyll** file in the **docs/** folder, otherwise GitHub does some voodoo that causes some filepaths not to work. This file is generated automatically by `oxforddown`s knitting function.
+-   Note that to deploy a gitbook on GitHub Pages, there must be a **.nojekyll** file in the **docs/** folder, otherwise GitHub does some voodoo that causes some filepaths not to work. This file is generated automatically by `oxforddown`'s knitting function.
 
 #### Word output
 
@@ -203,6 +206,8 @@ bibliography: references.bib
 ```
 
 The file **templates/brief_template.tex** formats the chapter in the OxThesis style but without including the front matter (table of contents, abstract, etc).
+
+**NOTE:** The bibliography path in your individual chapters' YAML headers needs to be identical to the one in **index.Rmd** - otherwise your individual chapters' bibliography path may override the path in **index.Rmd** and cause trouble when you knit the entire thesis.
 
 ## Customisations and extensions
 
